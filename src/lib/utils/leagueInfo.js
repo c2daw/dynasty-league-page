@@ -7,9 +7,9 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Die Dynasty League wurde 2021 gegruendet. Fuer einige war es die erste Dynasty League, fuer andere nur ein weiterer Weg, sich zu blamieren.</p>
-  <p>Dabei geht es nicht um Geld, es geht neben den klassischen "Bragging Rights" um den buchstaeblichen Cup. Denn der Sieger erhaelt eine Kaffeetasse.</p>
-  <p>Fuer den Verlierer hingegen geht es um die Ehre - er wird oeffentlich (in der WhatsApp Gruppe) durch ein peinliches Profilbild bloss gestellt.</p>
+  <p>Gegründet im Jahr 2021, startete die Dynasty League. Für manche war es das erste Mal im Dynasty-Format, für andere einfach eine neue Chance, sich gründlich zu blamieren.</p>
+  <p>Hier zählt nicht das große Geld, sondern die pure Ehre, die berüchtigten 'Bragging Rights' und natürlich der legendäre 'Cup' – die glorreiche Kaffeetasse des Champions!</p> 
+  <p>Doch wehe dem Verlierer: Seine Schmach wird in der WhatsApp-Gruppe durch ein peinliches Profilbild verewigt.</p>
 `;
 
 /*   STEP 3   */
@@ -27,11 +27,11 @@ export const managers = [
        "managerID": "475008308709683200",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Puffin' a Winston",
      //  "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
-       "location": "Brooklyn", // (optional)
+       "location": "Barcelona", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": "tb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "Rival", // Can be anything (usually your rival's name)
